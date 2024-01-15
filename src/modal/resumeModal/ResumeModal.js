@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 // import styles from './ResumeModal.module.css';
+
 import Modal from '../Modal/Modal';
-//Saved for 3rd version release, pending modification of original author's design c99rahul (stackblitz)
-//Original code from: https://stackblitz.com/edit/stackblitz-starters-tkpczr?file=src%2Fcomponents%2FNewsletterModal%2FNewsletterModal.jsx
 const initialNewsletterModalData = {
   email: '',
   digestType: 'weekly',
